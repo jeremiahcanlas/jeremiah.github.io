@@ -5,6 +5,8 @@ html, body {
     padding: 0px;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
 }
 #navbar {
     position: fixed;
@@ -19,24 +21,24 @@ html, body {
     justify-content: flex-end;
     list-style: none;
     margin:0 auto;
-    padding:30px 0;
+    padding:32px 0;
 }
 #navbar a {
     font-weight: 700;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     text-decoration: none;
     color:#C7D6D5;
     padding:25px 20px 25px 20px;
 }
 #navbar a:hover , li:hover {
-    background-color:#C7D6D5;
-    color: #0C120C; 
+    /* background-color:#C7D6D5;
+    color: #0C120C;  */
     animation-name: linkanim;
     animation-duration: 5ms;
     animation-fill-mode: forwards; 
 }
 #welcome-section {
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +71,7 @@ html, body {
     color: #C7D6D5;
     text-decoration: underline;
     font-size: 35px;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     text-align: center;
     margin-top: 100px;
 }
@@ -85,14 +87,15 @@ html, body {
     padding: 50px 0;
 }
 .project-tile {
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     text-decoration: none;
     max-width:465px;
 }
 .project-tile:hover {
     animation-name: projanim;
     animation-duration: 5ms;
-    animation-fill-mode: forwards; 
+    animation-fill-mode: forwards;
+    text-decoration: none; 
 }
 .project-tile img {
     width: auto;
@@ -115,7 +118,7 @@ html, body {
 #contactme {
     color: #0C120C;
     background-color: #C7D6D5;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -140,7 +143,7 @@ footer {
     color: #0C120C;
     background-color: #C7D6D5;
     text-align: right;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     font-weight: 600;
     height:8vh;
     width: 100%;
@@ -164,7 +167,8 @@ footer p {
      color:#6D7275;
      animation-name: linkanim;
      animation-duration: 5ms;
-     animation-fill-mode: forwards; 
+     animation-fill-mode: forwards;
+     text-decoration: none; 
  }
  @keyframes linkanim {
     100% {
