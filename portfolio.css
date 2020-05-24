@@ -4,9 +4,9 @@ html, body {
     margin: 0px;
     padding: 0px;
      overflow-x: hidden;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     overflow-y: auto;
-    -webkit-overflow-scrolling: touch; 
+    /* -webkit-overflow-scrolling: touch;  */
 }
 #navbar {
     position: fixed;
