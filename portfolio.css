@@ -3,17 +3,18 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-     overflow-x: hidden;
     /* scroll-behavior: smooth; */
-    overflow-y: auto;
-    /* -webkit-overflow-scrolling: touch;  */
+    -webkit-overflow-scrolling: touch; 
+}
+body {
+    overflow-x: hidden;
 }
 #navbar {
     position: fixed;
     background-color:#0C120C;
     width:100%;
     border-bottom:5px solid #FFB20F;
-    /* z-index: 1; */
+    z-index: 1;
 }
 #navbar ul{
     display: flex;
@@ -65,7 +66,7 @@ html, body {
     align-items: center;
     margin:0 auto;
     background-color: #0C120C;
-    width: 100%;
+    width: 100vw;
     height: auto;
 }
 #projects h2 {
@@ -83,7 +84,7 @@ html, body {
     justify-items: center;
     column-gap: 5rem;
     row-gap: 5rem;
-    width:100%;
+    width:100vw;
     max-width: 900px;
     margin: 0 auto;
     padding: 50px 0;
@@ -127,7 +128,7 @@ html, body {
     align-items: center;
     text-align: center;
     height:90vh;
-    width:100%;
+    width:100vw;
 }
 #contactme h2 {
     font-size: 40px;
@@ -148,7 +149,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     height:6vh;
-    width: 100%;
+    width: 100vw;
     border-top: 5px solid #FFB20F;
 }
 footer p {
@@ -208,6 +209,7 @@ footer p {
 }
 
 #navbar ul {
+    margin-left:20px;
     justify-content: center;
 }
 
