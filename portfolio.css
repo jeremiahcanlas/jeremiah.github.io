@@ -13,7 +13,7 @@ html, body {
     background-color:#0C120C;
     width:100%;
     border-bottom:5px solid #FFB20F;
-    z-index: 1;
+    /* z-index: 1; */
 }
 #navbar ul{
     display: flex;
