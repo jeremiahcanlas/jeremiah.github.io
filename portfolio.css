@@ -24,15 +24,15 @@ html, body {
     padding:32px 0;
 }
 #navbar a {
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color:#C7D6D5;
     padding:25px 20px 25px 20px;
 }
 #navbar a:hover , li:hover {
-    /* background-color:#C7D6D5;
-    color: #0C120C;  */
+    /* background-color:#C7D6D5;*/
+    color: #FFB20F;
     animation-name: linkanim;
     animation-duration: 5ms;
     animation-fill-mode: forwards; 
@@ -50,6 +50,7 @@ html, body {
 #welcome-section h1 {
     color:#0C120C;
     font-size: 50px;
+    font-weight:500;
     margin:0;
 }
 #welcome-section p {
@@ -72,6 +73,7 @@ html, body {
     text-decoration: underline;
     font-size: 35px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
     text-align: center;
     margin-top: 100px;
 }
@@ -87,7 +89,6 @@ html, body {
     padding: 50px 0;
 }
 .project-tile {
-    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     max-width:465px;
 }
@@ -105,8 +106,9 @@ html, body {
     max-height: 251px;
 }
 .project-tile p {
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     color: #0C120C;
     background-color: #C7D6D5;
@@ -144,8 +146,8 @@ footer {
     background-color: #C7D6D5;
     text-align: right;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    height:8vh;
+    font-weight: 500;
+    height:6vh;
     width: 100%;
     border-top: 5px solid #FFB20F;
 }
@@ -164,7 +166,7 @@ footer p {
     text-decoration: none;
  }
  .fa:hover {
-     color:#6D7275;
+     color:#FFB20F;
      animation-name: linkanim;
      animation-duration: 5ms;
      animation-fill-mode: forwards;
@@ -172,7 +174,7 @@ footer p {
  }
  @keyframes linkanim {
     100% {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 } 
 @keyframes projanim {
@@ -206,7 +208,10 @@ footer p {
 }
 
 #navbar ul {
-    margin-left: 10px;
     justify-content: center;
+}
+
+#navbar a {
+    padding:25px 15px;
 }
 }
