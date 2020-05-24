@@ -3,10 +3,10 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+     overflow-x: hidden;
     scroll-behavior: smooth;
-    overflow-y: scroll; /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; 
 }
 #navbar {
     position: fixed;
@@ -25,7 +25,7 @@ html, body {
 }
 #navbar a {
     font-weight: 700;
-    /* font-family: 'Merriweather', serif; */
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color:#C7D6D5;
     padding:25px 20px 25px 20px;
@@ -38,7 +38,7 @@ html, body {
     animation-fill-mode: forwards; 
 }
 #welcome-section {
-    /* font-family: 'Merriweather', serif; */
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,7 +71,7 @@ html, body {
     color: #C7D6D5;
     text-decoration: underline;
     font-size: 35px;
-    /* font-family: 'Merriweather', serif; */
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin-top: 100px;
 }
@@ -87,7 +87,7 @@ html, body {
     padding: 50px 0;
 }
 .project-tile {
-    /* font-family: 'Merriweather', serif; */
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     max-width:465px;
 }
@@ -118,7 +118,7 @@ html, body {
 #contactme {
     color: #0C120C;
     background-color: #C7D6D5;
-    /* font-family: 'Merriweather', serif; */
+    font-family: 'Open Sans', sans-serif;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -143,7 +143,7 @@ footer {
     color: #0C120C;
     background-color: #C7D6D5;
     text-align: right;
-    /* font-family: 'Merriweather', serif; */
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     height:8vh;
     width: 100%;
