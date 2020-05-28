@@ -3,7 +3,6 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    /* scroll-behavior: smooth; */
     -webkit-overflow-scrolling: touch; 
 }
 body {
@@ -26,7 +25,7 @@ body {
 }
 #navbar a {
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     text-decoration: none;
     color:#C7D6D5;
     padding:25px 20px 25px 20px;
@@ -39,7 +38,7 @@ body {
     animation-fill-mode: forwards; 
 }
 #welcome-section {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,7 +72,7 @@ body {
     color: #C7D6D5;
     text-decoration: underline;
     font-size: 35px;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     font-weight: 500;
     text-align: center;
     margin-top: 100px;
@@ -90,24 +89,25 @@ body {
     padding: 50px 0;
 }
 .project-tile {
-    text-decoration: none;
     max-width:465px;
+    text-decoration: none!important;
 }
 .project-tile:hover {
     animation-name: projanim;
     animation-duration: 5ms;
     animation-fill-mode: forwards;
-    text-decoration: none; 
+    
+  
 }
 .project-tile img {
     width: auto;
     height:auto;
     object-fit: cover;
-    max-width:464px;
-    max-height: 251px;
+    max-width:412px;
+    max-height: 227px;
 }
 .project-tile p {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     font-size: 18px;
     font-weight: 500;
     text-align: center;
@@ -115,13 +115,30 @@ body {
     background-color: #C7D6D5;
     padding:20px 0;
     margin:0 auto;
+   
 }
 
+.project-tile p:hover {
+    background-color: #FFB20F;
+}
+
+.btn {
+    background-color:#C7D6D5;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.btn:hover {
+    animation-name: projanim;
+    animation-duration: 5ms;
+    animation-fill-mode: forwards;
+    text-decoration: none;
+    background-color: #FFB20F; 
+}
 
 #contactme {
     color: #0C120C;
     background-color: #C7D6D5;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -131,10 +148,10 @@ body {
     width:100vw;
 }
 #contactme h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 #contactme p {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .emailme {
@@ -146,14 +163,14 @@ footer {
     color: #0C120C;
     background-color: #C7D6D5;
     text-align: right;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     font-weight: 500;
-    height:6vh;
+    height:10vh;
     width: 100vw;
     border-top: 5px solid #FFB20F;
 }
 footer p {
-    padding-right: 10px;
+    padding-right: 20px;
     margin-top: 30px;
 }
 .fa {
@@ -181,7 +198,7 @@ footer p {
 @keyframes projanim {
     100% {
         transform: scale(1.01);
-        background-color: #FFB20F;
+        
     }
 } 
 @media screen and (max-width:940px) and (min-width:890px)
@@ -209,7 +226,7 @@ footer p {
 }
 
 #navbar ul {
-    justify-content: center;
+    justify-content:flex-end;
 }
 
 #navbar a {
