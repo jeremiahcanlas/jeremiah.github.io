@@ -1,0 +1,8 @@
+#loading, #results {
+    display:none;
+}
+
+input value ::before {
+    content:'$ ';
+
+}
