@@ -1,4 +1,6 @@
 
+"use strict";
+
 $('a').click(function(e){
   $('html, body').animate({
       scrollTop: $( $.attr(this, 'href') ).offset().top
